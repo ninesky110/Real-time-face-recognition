@@ -18,3 +18,5 @@ facenet的源码链接https://github.com/davidsandberg/facenet
 （2）将facenet提取出的人脸特征训练一个分类器，然后用检测到的人脸进行分类。优点：精度较高，速度快；缺点：当增加新人物人脸时，需要再次训练分类器。
 
 我采用的是第二种方式进行搭建这个项目。
+
+项目运行文件：test/realtime.py  此文件包含了提取特征、训练svc、实时检测的功能。
